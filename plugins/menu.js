@@ -18,7 +18,7 @@ import { buatThumbnailJpeg } from '../lib/zapo/mediaProcessor.js';
    CONFIG
 ========================= */
 
-const GROUP_LINK = 'https://chat.whatsapp.com/HazHiWY8c8OJhLofbqRDwL?s=cl&p=a&mlu=4&ilr=4';
+const GROUP_LINK = 'https://chat.whatsapp.com/GRj7DL7U8w44CTmGcFC5v2?s=cl&p=a&mlu=4&ilr=4';
 
 const ENABLE_MENU_AUDIO = true;
 
