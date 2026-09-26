@@ -28,10 +28,10 @@ const CONNECTION = 'pairing'; // qr atau pairing
 // Contoh valid  : 'RESBTMD1', 'WABTMD12', 'RESBTMD9'
 // Contoh DITOLAK: 'RESBOTMD' (ada O), 'AZHARI12' (ada I), 'RESB0TMD' (ada 0)
 const PAIRING_CODE = '';
-const OWNER_NAME = 'Autoresbot';
-const NOMOR_BOT = '628xx'; // 628xx nomor wa - 6285124002201, 6282254050481
+const OWNER_NAME = 'Cahyo Store';
+const NOMOR_BOT = '6282228307663'; // 628xx nomor wa - 6285124002201, 6282254050481
 const DESTINATION = 'group'; // group , private, both
-const APIKEY = ''; // apikey dari autoresbot.com (paket apikey)
+const APIKEY = '175ee97dcb7ea7106a3bb08f'; // apikey dari autoresbot.com (paket apikey)
 const RATE_LIMIT = 3000; // 3 detik/chat
 const SIMILARITY = true; // Pencarian kemiripan command (true, false)
 // Jejak chat di console: tiap pesan dicetak MASUK -> LANJUT -> SELESAI/BERHENTI,
@@ -43,10 +43,10 @@ const TRACE_CHAT = null;
 const MODE = 'production'; // [production, development] (jangan di ubah kecuali anda developer)
 const VERSION = global.version; // don't edit
 
-const EMAIL = 'autoresbot@gmail.com';
+const EMAIL = 'cahyostore404@gmail.com';
 const REGION = 'Indonesia';
 const WEBSITE = 'autoresbot.com';
-const DATA_OWNER = []; // cara ambil owner https://youtu.be/qrRXPCSFvRo?si=KOWdFhrScHN7Ugd4
+const DATA_OWNER = [33033365233764@lid]; // cara ambil owner https://youtu.be/qrRXPCSFvRo?si=KOWdFhrScHN7Ugd4
 
 // Nama yang ditampilkan di command .owner.
 // Key  : nomor/LID owner (boleh ditulis polos, dengan @lid, atau @s.whatsapp.net)
@@ -54,8 +54,8 @@ const DATA_OWNER = []; // cara ambil owner https://youtu.be/qrRXPCSFvRo?si=KOWdF
 // Owner yang tidak didaftarkan di sini akan memakai OWNER_NAME (kalau ownernya
 // cuma satu) atau nomornya sendiri.
 const OWNER_NAMES = {
-  '69243815079978@lid': 'Azhari',
-  '231911473578043': 'Autoresbot',
+  '33033365233764@lid': 'Cahyo Store',
+  '6282228307663@s.whatsapp.net': 'YoraaBot',
 };
 
 // Konfiqurasi Chat
@@ -77,14 +77,14 @@ const AUTO_BACKUP_TELEGRAM = false;
 const MIDNIGHT_RESTART = false; // Restart setiap jam 12 malam
 const PRESENCE_UPDATE = ''; // unavailable, available, composing, recording, paused
 const ALWAYS_ONLINE = true; // jika true (bot selalu tampil "aktif" di Perangkat Tertaut)
-const TYPE_WELCOME = '1'; // 1, 2, 3, 4, 5, 6 text dan random
+const TYPE_WELCOME = '2'; // 1, 2, 3, 4, 5, 6 text dan random
 const BG_WELCOME2 = 'https://api.autoresbot.com/api/maker/bg-default';
 
 // Konfiqurasi Panel
 // Tutor : https://youtu.be/ZAWb7tnKjoM?si=jMUiB13KkXE1H7IG
 const PANEL_URL = '';
 const PANEL_PLTA = '';
-const PANEL_DESCRIPTION = 'Butuh Bantuan Hubungi 628xxxxx';
+const PANEL_DESCRIPTION = 'Butuh Bantuan Hubungi 628139525985';
 const PANEL_ID_EGG = 15;
 const PANEL_ID_LOCATION = 1;
 const PANEL_DEFAULT_DISK = 5120; // 5GB atau 0 (unlimited)
